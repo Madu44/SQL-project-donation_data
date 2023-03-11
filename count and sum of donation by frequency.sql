@@ -10,6 +10,3 @@ from Donation_Data
 JOIN Donor_Data2
 on Donation_Data.id = Donor_Data2.id
 GROUP by donation_frequency;
-
-
-
